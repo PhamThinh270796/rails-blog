@@ -4,10 +4,14 @@ class BlogController < ActionController::Base
   end
 
   def create 
-    puts 'Create a new blog'
+    puts 'Let create a new blog'
   end
 
   def destroy 
     puts 'Delete a blog'
+  end
+
+  def save
+    puts 'Save a new blog'
   end
 end
