@@ -1,6 +1,10 @@
 class BlogController < ActionController::Base
+  def new 
+    puts 'Redirect to create a new blog page'
+  end
+
   def create 
-    puts 'Create a blog'
+    puts 'Create a new blog'
   end
 
   def destroy 
